@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: #f0f5fb;
+    font-family: "Poppins", serif;
+}
+.container{
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 5px;padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0px 0px 10px #212529;
+}
+.container h2{
+    background-color: #2563eb;
+    width: 400px;
+    height: 80px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-items: center;
+    padding: 0;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 10px;
+    gap: 6px 0;
+    justify-content: center;
+}
+.container form input{
+    width: 340px;
+    align-self: center;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #c1c1c2;
+    outline: 0;
+}
+.container form label{
+    width: 340px;
+    align-self: center;
+}
+.container .text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+.selection-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+.selection-container .cont .select{
+    border: 1px solid #c1c1c2;
+    width: 100px;
+    outline: 0;
+    border-radius: 7px;
+}
+.last{
+    text-align: center;
+    background-color: #eff6ff;
+    margin-top: 30px;
+    color: #2563eb;
+    padding: 5px;
+    font-weight: 400;
+}
+button{
+    background-color: #2563eb;
+    cursor: pointer;
+    gap: 0px 8px;
+    margin-top: 25px;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 300px;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: #235bd3;
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2560px){
+    .container{
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 5px;padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0px 0px 10px #212529;
+}
+.container h2{
+    background-color: #2563eb;
+    width: 800px;
+    height: 80px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 52px;
+    color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 10px;
+    gap: 10px 0;
+    justify-content: center;
+}
+.container form input{
+    width: 740px;
+    align-self: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 26px;
+    border: 1px solid #c1c1c2;
+    outline: 0;
+}
+.container form label{
+    width: 740px;
+    font-size: 26px;
+    align-self: center;
+}
+.container .text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 26px;
+}
+.selection-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+.selection-container .cont .select{
+    border: 1px solid #c1c1c2;
+    width: 200px;
+    font-size: 22px;
+    outline: 0;
+    padding: 6px;
+    border-radius: 7px;
+}
+.last{
+    text-align: center;
+    background-color: #eff6ff;
+    margin-top: 30px;
+    color: #2563eb;
+    font-size: 26px;
+    padding: 10px;
+    font-weight: 400;
+}
+button{
+    background-color: #2563eb;
+    cursor: pointer;
+    gap: 0px 8px;
+    margin-top: 35px !important;
+    font-size: 32px !important;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 400px !important;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 424px){
+    .container{
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px !important;
+        padding: 15px;
+        padding-top: 0px;
+        border-radius: 5px;padding-left: 0px;
+        padding-right: 0px;
+        box-shadow: 0px 0px 10px #212529;
+    }
+    .container h2{
+        background-color: #2563eb;
+        width: 300px !important;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height: 80px;
+        margin: 0;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .container form{
+        display: flex;
+        flex-direction: column;
+        font-weight: 700;
+        margin-top: 30px;
+        padding: 10px;
+        gap: 6px 0;
+        justify-content: center;
+    }
+    .container form input{
+        width: 260px;
+        align-self: center;
+        padding: 6px;
+        border-radius: 5px;
+        font-size: 18px;
+        border: 1px solid #c1c1c2;
+        outline: 0;
+    }
+    .container form label{
+        width: 260px;
+        align-self: center;
+    }
+    button{
+        background-color: #2563eb;
+        cursor: pointer;
+        gap: 0px 8px;
+        margin-top: 25px;
+        font-size: 18px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        border: none;
+        width: 240px;
+        text-align: center;
+        color: white;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+}
